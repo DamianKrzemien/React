@@ -68,7 +68,7 @@ if(this.state.showPersons) {
     </div> 
   );
       style.backgroundColor = 'red';
-     
+    }
     let classes = [];
     if (this.state.persons.length <= 2) {
       classes.push('red');
@@ -88,7 +88,6 @@ if(this.state.showPersons) {
       </div>
     );
   }
-}
 }
 
 export default App;
